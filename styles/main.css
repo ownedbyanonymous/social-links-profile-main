@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    background-color: hsl(0, 0%, 12%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 2.7em;
+    padding-bottom: 2.6em;
+}
+
+header{
+    text-align:center;
+
+    img{
+        width: 8.9em;
+        height: 9.1em;
+        border-radius: 50%;
+        margin-bottom: 2.7em;
+    }
+
+    h1{
+        font-weight: 500;
+        font-size: 2.3em
+    }
+
+    h3{
+        color: hsl(75, 94%, 57%);
+        font-weight:500;
+        margin-bottom: 2.8em;
+        margin-top: 0.6em;
+        font-size: 1.35em;
+    }
+}
+
+.bio{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2.1em;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+
+    a{
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        padding: 1.3em 11em;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 1.3em;
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
+    a:hover{
+        cursor: pointer;
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%)
+    }
+
+@media screen and (min-width : 90rem) {
+    article{
+        width: 20%;
+        padding-top: 1.6875rem;
+        padding-bottom: 1.625rem;
+    }
+}
